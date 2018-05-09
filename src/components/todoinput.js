@@ -22,7 +22,7 @@ export default class TodoInpput extends React.Component{
 				<div>
 					<h3>添加事项：</h3>
                     {/* React提供的这个ref属性，表示为对组件真正实例的引用 */}
-					<input type="text" ref="myText" placeholder="你想做点什么"/> 
+					<input type="text" ref="myText" placeholder="what you wanna do"/> 
 				</div>
 				<div>
 					<input type="button" value="Save Task" onClick={this.handleClick}/>
